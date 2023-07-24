@@ -9,28 +9,29 @@ const rand =Math.floor(Math.random() * 4);
     
    if(rand==0){
     document.getElementById("h1").innerHTML = "LETS";
-    const head = document.querySelector('#h1');
-head.className = "bg1";
+    const head = document.querySelector("#h1");
+    document.body.className = "bg1";
+    
    }
    else if(rand==1){
     document.getElementById("h1").innerHTML = "ROCK";
     const head = document.querySelector('#h1');
 
-    head.className = "bg2"
+     document.body.className = "bg2";
 
    }
    else if(rand ==3){
     document.getElementById("h1").innerHTML = "HIT HARD";
     const head = document.querySelector('#h1');
 
-    head.className = "bg3"
+    document.body.className = "bg3";
 
    }
    else{
     const head = document.querySelector('#h1');
 
     document.getElementById("h1").innerHTML = "DANCE";
-    head.className = "bg4"
+    document.body.className = "bg4";
 
    }}
    }
