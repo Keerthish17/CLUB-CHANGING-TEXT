@@ -1,13 +1,40 @@
 #h1{
-    
+    width: 100%; height: 100%;
     text-align: center;
     font-size: 300px;
     background: -webkit-linear-gradient(#000000, #a1051a);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+
+}
+
+.bg1{
+
+   background-image: url("./club1.jpg");
+   background-color: yellow;
+   opacity: 8;
+}
+
+.bg2{
+    background-image: url("./club2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+
+}
+.bg3{
+    background-image: url("./club3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;}
+
+.bg4{
+    background-image: url("./club4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
 }
 body{
-    background-image: url("./club.jpg");
+   background-image: url("./club.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 
