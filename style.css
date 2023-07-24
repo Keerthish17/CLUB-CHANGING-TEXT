@@ -1,0 +1,14 @@
+#h1{
+    
+    text-align: center;
+    font-size: 300px;
+    background: -webkit-linear-gradient(#000000, #a1051a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+body{
+    background-image: url("./club.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
